@@ -15,23 +15,15 @@ class Animal {
         return $this->name;
     }
 
-    public function setNama($name) {
-        $this->name = $name;
-    }
-
+    
     public function getkaki() {
         return $this->legs;
     }
-
-    public function setkaki($legs) {
-        $this->legs = $legs;
-    }
-
+    
+    
     public function darahDingin() {
         return $this->cold_blooded;
     }
-
-    public function setDarahDingin($cold_blooded) {
-        $this->cold_blooded = $cold_blooded;
-    }
+    
 }
+
